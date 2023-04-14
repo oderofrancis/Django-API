@@ -26,12 +26,14 @@ env = environ.Env(DEBUG=(bool, False))
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env("SECRET_KEY")
+# SECRET_KEY = env("SECRET_KEY")
+
+SECRET_KEY = 'django-insecure-7hrt^0sg1bh(_7rffypl1wqp)p*#fr2uiykr6u&4k33f7b90kl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-api-production-a378.up.railway.app']
 
 
 # Application definition
